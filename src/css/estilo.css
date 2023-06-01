@@ -1,0 +1,65 @@
+/* fundo da web */
+body{
+    background-image: url(../img/sapo_triste-removebg-preview.png);
+    background-size: 10%;
+    background-color: #76008E;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+.foto{
+    height: 400px;
+}
+
+/* parte do texto com a imagem */
+
+.apresentacao { 
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cortexto{
+    color: white;
+}
+
+.texto {
+    width: 700px; 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.texto_titulo {
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.texto_introdutorio{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* botoes */
+
+.botao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links { 
+    background-color: blue;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 21px 0px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
