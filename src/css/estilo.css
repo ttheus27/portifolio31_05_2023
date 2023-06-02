@@ -3,7 +3,6 @@ body{
     background-image: url(../img/sapo_triste-removebg-preview.png);
     background-size: 10%;
     background-color: #76008E;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -11,13 +10,14 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 .foto{
-    height: 400px;
+    height: 500px;
+    width: 350px;
 }
 
 /* parte do texto com a imagem */
 
 .apresentacao { 
-    margin: 10%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,18 +48,60 @@ body{
 
 .botao {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .links { 
-    background-color: blue;
-    width: 280px;
+    display: flex;
+    width: 230px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 20px;
     padding: 21px 0px;
-    color: black;
+    color: wheat;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-weight: 600;
+    border: 3px solid rgb(0, 247, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.links:hover{
+    background-color: #272727;
+}
+
+/* Rodapé */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(0, 247, 255);
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* cabaçalho */
+
+.cabecalho {
+    display: flex;
+    gap: 80px;
+    padding: 4% 0 0 15%;
+}
+.menu {
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
 }
