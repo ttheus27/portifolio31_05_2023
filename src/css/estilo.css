@@ -2,12 +2,28 @@
 body{
     background-image: url(../img/sapo_triste-removebg-preview.png);
     background-size: 10%;
-    background-color: #76008E;
+    background-color: var(--cor-do-fundo);
     box-sizing: border-box;
 }
 
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* variaveis */
+
+:root{
+    /* cores */
+    --cor-azulesverdiado:#8B9A46;
+    --cor-dos-links: #541212;
+    --cor-do-fundo: #0F0E0E;
+    --cor-texto:#EEEEEE;
+
+    /* fontes */
+    --fonte-principal:'Krona One', sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
+}
+
+/* foto */
 
 .foto{
     height: 500px;
@@ -32,16 +48,17 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    color: var(--cor-texto);
 }
 
 .texto_titulo {
     font-size: 30px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 .texto_introdutorio{
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 /* botoes */
@@ -54,7 +71,7 @@ body{
 }
 
 .subtitulo{
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 24px;
 }
@@ -67,17 +84,17 @@ body{
     font-size: 20px;
     padding: 21px 0px;
     color: wheat;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     text-decoration: none;
     font-weight: 600;
-    border: 3px solid rgb(0, 247, 255);
+    border: 3px solid var(--cor-azulesverdiado);
     align-items: center;
     justify-content: center;
     gap: 16px;
 }
 
 .links:hover{
-    background-color: #272727;
+    background-color: var(--cor-dos-links);
 }
 
 /* Rodapé */
@@ -85,9 +102,10 @@ body{
 .rodape {
     display: flex;
     justify-content: center;
-    background-color:rgb(0, 247, 255);
+    background-color:var(--cor-azulesverdiado);
     padding: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
 }
 
@@ -99,8 +117,8 @@ body{
     padding: 4% 0 0 15%;
 }
 .menu {
-    color: aqua;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-azulesverdiado);
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
     text-decoration: none;
