@@ -26,8 +26,8 @@ body{
 /* foto */
 
 .foto{
-    height: 500px;
-    width: 350px;
+    /* height: 500px; */
+    width: 50%;
 }
 
 /* parte do texto com a imagem */
@@ -44,7 +44,7 @@ body{
 }
 
 .texto {
-    width: 700px; 
+    width: 50%; 
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -52,12 +52,12 @@ body{
 }
 
 .texto_titulo {
-    font-size: 30px;
+    font-size: 1.87rem;
     font-family: var(--fonte-principal);
 }
 
 .texto_introdutorio{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -78,10 +78,10 @@ body{
 
 .links { 
     display: flex;
-    width: 230px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 21px 0px;
     color: wheat;
     font-family: var(--fonte-secundaria);
@@ -119,7 +119,7 @@ body{
 .menu {
     color: var(--cor-azulesverdiado);
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none;
 }
