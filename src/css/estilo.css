@@ -37,6 +37,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .cortexto{
@@ -123,3 +124,4 @@ body{
     font-weight: 400;
     text-decoration: none;
 }
+ 
