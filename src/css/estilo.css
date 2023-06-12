@@ -13,7 +13,7 @@ body{
 
 :root{
     /* cores */
-    --cor-azulesverdiado:#8B9A46;
+    --cor-azulesverdiado:#2c542c;
     --cor-dos-links: #541212;
     --cor-do-fundo: #0F0E0E;
     --cor-texto:#EEEEEE;
@@ -26,8 +26,8 @@ body{
 /* foto */
 
 .foto{
-    /* height: 500px; */
-    width: 50%;
+    
+    width: 60%;
 }
 
 /* parte do texto com a imagem */
@@ -125,3 +125,27 @@ body{
     text-decoration: none;
 }
  
+/* laguras */
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 7% ;
+    }
+
+    .cabecalho {
+        padding: 8%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto{
+        width: auto;
+    }
+}
